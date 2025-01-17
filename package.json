@@ -1,13 +1,10 @@
 {
-  "homepage": "https://vazhak14.github.io/to-do-list-app/",
   "name": "to-do-list-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
